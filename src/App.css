@@ -1,0 +1,9 @@
+.App {
+  background-color: #6C6C6C;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
