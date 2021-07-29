@@ -1,3 +1,21 @@
-.root {
-    background-color: black;
+.navBarContainer {
+    background: #FAFAFA;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 1.2rem;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.links:focus {
+    color: #FF0606;
+    border-bottom: 2px solid #FF0606;
 }
