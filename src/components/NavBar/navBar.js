@@ -1,11 +1,22 @@
 import React from 'react';
-import classes from './navBar.css'
+import {
+   Link
+  } from "react-router-dom";
+import './navBar.css'
 
 function NavBar() {
     return (
-        <p className={classes.root}>
-            Test de navbar
-        </p>    
+        <section className='navBarContainer'>
+            <Link to="/cargarMutantes" className="links">
+                Cargar Mutantes
+            </Link>
+            <Link to="/dectector-de-mutantes" className="links">
+                Dectector de mutantes
+            </Link>
+            <Link to="/mis-mutantes" className="links">
+                Mis mutantes
+            </Link>
+        </section>    
     )
 }
 
